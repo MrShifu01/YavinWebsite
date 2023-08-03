@@ -41,6 +41,47 @@
     transition: all 0.5s ease-in-out;
 }
 
+.details-2 .decoration-star {
+    right: -200px;
+    width: 500px;
+}
+
+.contact .decoration-star {
+    left: -300px;
+    width: 600px;
+}
+
+.to-top-btn {
+    position: fixed;
+    z-index: 20;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    width: 52px;
+    height: 52px;
+    border: 0;
+    border-radius: 50%;
+    outline: 0;
+    background-color: #44434a;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn:hover {
+    background-color: #1d1d21;
+}
+
+.to-top-btn {
+    img {
+        width: 18px;
+        margin-bottom: 0.25rem;
+    }
+}
+
+.show {
+    opacity: 1;
+}
+
 @media (max-width: 991px) {
     
     .xl-text {
@@ -73,7 +114,15 @@
 
     .services .col-md-4 {
         border-bottom: 1px #ccc solid;
-        margin: 7px 0;
+        margin: 10px 0;
+    }
+
+    .details-2 {
+        margin-top: 20px !important;
+    }
+
+    .details-2 .decoration-star {
+        top: 300px;
     }
 }
 
